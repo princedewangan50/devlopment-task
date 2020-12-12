@@ -1,0 +1,25 @@
+@import '../main-style.scss';
+
+.main-container{
+
+    display: flex;
+
+    flex-direction: column;
+    max-width: 500px;
+
+    margin: auto;
+    padding-top: 50px;
+
+    .notes-list{
+        margin-top: 20px;
+    }
+
+    .floatin-add-button{
+
+        background: $purple;
+        position: fixed;
+        bottom: 2px;
+        width: 500px;
+    }
+}
+
